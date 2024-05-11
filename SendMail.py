@@ -8,9 +8,9 @@ def email_alert(subject, body, to, attachment_folder=None):
     msg['subject'] = subject
     msg['to'] = to
 
-    user = "testing123456qaz@gmail.com"  # Email address from which you want to send
+    user = " "  # Email address from which you want to send
     msg['from'] = user
-    password = "xrkpfwpwqjjgiuyn"  # App_password
+    password = " "  # App_password
 
     if attachment_folder:
         for filename in os.listdir(attachment_folder):
