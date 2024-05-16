@@ -1,4 +1,4 @@
-# TEXT CLASSIFIER
+# PDF and YouTube Processor
 
 This application processes YouTube videos and PDF files to classify text into positive, negative, or neutral sentiments using [TextBlob](https://textblob.readthedocs.io/en/dev/). The results can be reviewed and sent via email as needed.
 
